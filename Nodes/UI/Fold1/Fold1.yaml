@@ -1,0 +1,13 @@
+Name: Fold1
+Type: FolderType
+Children:
+- Name: Label2
+  Id: g=57be050fa3916ffa7c912b477dae9255
+  Supertype: Label
+  ReferenceType: HasComponent
+  Children:
+  - Name: Text
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    ModellingRule: Optional
+    Value: {"LocaleId":"en-US","Text":"Label2"}

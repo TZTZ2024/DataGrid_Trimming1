@@ -1,0 +1,12 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: PumpType/PumpType.yaml
+- File: PumpInstance/PumpInstance.yaml
+- Name: varWaterPumpSelection
+  Type: NodePointer
+  DataType: NodeId
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId

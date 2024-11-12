@@ -1,0 +1,93 @@
+Name: PumpInstance
+Id: g=f6a09453d73c2e74821ed2b1f536a6f2
+Type: FolderType
+Children:
+- Name: WaterPump1
+  Type: WaterPump
+  Children:
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: GPH
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+    Children:
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Children:
+      - Name: UnitId
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: -1
+      - Name: DisplayName
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Description
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RX010"
+- Name: WaterPump2
+  Type: WaterPump
+  Children:
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: GPH
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+    Children:
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Children:
+      - Name: UnitId
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: -1
+      - Name: DisplayName
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Description
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RX020"
+- Name: WaterPump3
+  Type: WaterPump
+  Children:
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: GPH
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 30
+    Children:
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Children:
+      - Name: UnitId
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: -1
+      - Name: DisplayName
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+      - Name: Description
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+  - Name: Model
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RX030"
